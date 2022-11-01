@@ -67,6 +67,8 @@ public class HelloController {
             Förnamn.setText("");
             Efternamn.setText("");
             Mailadress.setText("");
+
+            System.out.println("Registrera klickad");
         }
     }
 
@@ -84,6 +86,7 @@ public class HelloController {
             System.out.println("Avbryt klickad");
 
         } else {
+            System.out.println("Avbryt klickad");
             System.exit(0);
         }
 
