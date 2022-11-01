@@ -82,6 +82,9 @@ public class HelloController {
             Mailadress.setText("");
 
             System.out.println("Avbryt klickad");
+
+        } else {
+            System.exit(0);
         }
 
     }
