@@ -6,7 +6,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="409.0" prefWidth="604.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.uppgift_11a_regformular.HelloController">
    <children>
-      <BorderPane layoutX="-3.0" layoutY="-6.0" prefHeight="409.0" prefWidth="604.0" style="-fx-background-color: lightsteelblue;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <BorderPane layoutX="-3.0" layoutY="-6.0" prefHeight="409.0" prefWidth="604.0" style="-fx-background-color: SteelBlue;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
             <GridPane prefHeight="123.0" prefWidth="597.0" BorderPane.alignment="CENTER">
               <columnConstraints>
@@ -105,12 +105,12 @@
                   <RowConstraints maxHeight="38.0" minHeight="10.0" prefHeight="23.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Button mnemonicParsing="false" onAction="#onAvbrytButtonClick" prefHeight="67.0" prefWidth="258.0" style="-fx-background-color: DarkRed;" text="Avbryt" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                  <Button mnemonicParsing="false" onAction="#onAvbrytButtonClick" prefHeight="67.0" prefWidth="258.0" style="-fx-background-color: indianRed;" text="Avbryt" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="5">
                      <font>
                         <Font name="System Bold" size="30.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#onRegistreraButtonClick" prefHeight="0.0" prefWidth="233.0" style="-fx-background-color: darkblue;" text="Registrera" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                  <Button mnemonicParsing="false" onAction="#onRegistreraButtonClick" prefHeight="0.0" prefWidth="233.0" style="-fx-background-color: COrnflowerblue;" text="Registrera" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="5">
                      <font>
                         <Font name="System Bold" size="30.0" />
                      </font>
