@@ -14,18 +14,20 @@ public class Printer {
     // Prints the object from the new list to a separate .txt file (If the list contains an object)
     public void printTofile(String string) {
 
-        String filename = "src/com/example/uppgift_11a_regformular/formulär.txt";
-        Path writeToFilePath = Paths.get(filename);
+        String filename = "src/main/java/com/example/uppgift_11a_regformular/" + "formulär.txt";
+        Path path = Paths.get(filename);
 
-//----------------------------------------------------------------------------------------------------------------------
-
-        boolean newFile = !Files.exists(writeToFilePath);
+        boolean newFile = !Files.exists(path);
 
 //T-------------------------------------------SKRIVER TILL FIL-------------------------------------------------------
 
         try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(filename, true))) {
 
-            bufferedWriter.write(string);
+            if (newFile) {
+                bufferedWriter.write(string);
+            } else
+                bufferedWriter.write(string);
+
 //--------------------------------------------FELHANTERING---------------------------------------------------------
 
         } catch (
