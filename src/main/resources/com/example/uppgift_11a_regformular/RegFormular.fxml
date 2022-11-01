@@ -11,8 +11,8 @@
             <GridPane prefHeight="123.0" prefWidth="597.0" BorderPane.alignment="CENTER">
               <columnConstraints>
                   <ColumnConstraints hgrow="SOMETIMES" maxWidth="194.0" minWidth="1.0" prefWidth="54.0" />
-                <ColumnConstraints hgrow="SOMETIMES" maxWidth="524.0" minWidth="10.0" prefWidth="485.0" />
-                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="142.0" minWidth="10.0" prefWidth="57.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="524.0" minWidth="10.0" prefWidth="494.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="142.0" minWidth="10.0" prefWidth="53.0" />
               </columnConstraints>
               <rowConstraints>
                   <RowConstraints maxHeight="36.0" minHeight="10.0" prefHeight="24.0" vgrow="SOMETIMES" />
@@ -25,9 +25,9 @@
                         <Font size="30.0" />
                      </font>
                   </Label>
-                  <Label fx:id="RubrikNy" alignment="CENTER" prefHeight="57.0" prefWidth="483.0" text="Fyll i dina personuppgifter nedan" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <Label fx:id="RubrikNy" alignment="CENTER" prefHeight="57.0" prefWidth="545.0" text="Fyll i dina personuppgifter nedan" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <font>
-                        <Font size="30.0" />
+                        <Font name="System Bold" size="30.0" />
                      </font>
                   </Label>
                   <Separator prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
