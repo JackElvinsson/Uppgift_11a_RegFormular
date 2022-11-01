@@ -22,7 +22,7 @@
                <children>
                   <Label fx:id="RubrikKlar" alignment="CENTER" prefHeight="101.0" prefWidth="526.0" text="Tack för din registrering!" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <font>
-                        <Font size="30.0" />
+                        <Font name="System Bold" size="30.0" />
                      </font>
                   </Label>
                   <Label fx:id="RubrikNy" alignment="CENTER" prefHeight="57.0" prefWidth="545.0" text="Fyll i dina personuppgifter nedan" GridPane.columnIndex="1" GridPane.rowIndex="1">
